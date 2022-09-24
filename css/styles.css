@@ -1,0 +1,40 @@
+.wrapper {
+  width: 1320px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.contact_navigation {
+  padding: 33px 0px 42px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  width: 244px;
+  height: 46px;
+}
+
+.number_cart_account {
+  display: flex;
+  align-items: center;
+}
+
+.telephone {
+  display: flex;
+  align-items: center;
+}
+.telephone .room {
+  margin-left: 10px;
+  margin-right: 60px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 21px;
+  text-decoration: none;
+  color: black;
+}
+
+.shopping_basket {
+  margin-right: 18px;
+}

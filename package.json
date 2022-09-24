@@ -1,11 +1,26 @@
 {
   "name": "sdewe2e",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": " gulp start"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.55.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maksym-Dramaretskyi/-12.-.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Maksym-Dramaretskyi/-12.-/issues"
+  },
+  "homepage": "https://github.com/Maksym-Dramaretskyi/-12.-#readme",
+  "description": ""
 }
