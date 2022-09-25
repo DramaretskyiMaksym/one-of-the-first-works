@@ -8,20 +8,19 @@
   <link rel="stylesheet" href="./css/styles.css">
   <title>Document</title>
 </head>
-<body>
-  <main class="wrapper">
-    <heder class="heder">
+<body class="wrapper">
+    <header class="header">
       <div class="contact_navigation">
         <div>
           <img class="logo" src="/img/logo.svg" alt="logo">  
-       </div>
-
+      </div>
         <div class="number_cart_account">
           <div class="telephone">
             <div> <a href="/"><img src="./img/phone.svg" alt="phone"></a></div>
             <a class="room" href="8 920 999 43 50">8 920 999 43 50</a>
           </div>
           <div class="shopping_basket">
+            <span class="two_orders">2</span>
             <a href="/"><img src="./img/Buy.svg" alt="basket"></a>
           </div>
           <div>
@@ -29,7 +28,27 @@
           </div>
         </div>
       </div>
-  </heder>
+    </header>
+    <nav class="main_nav">
+      <div class="nav_block">
+        <div><a>Каталог</a></div>
+        <div><a>O проекте</a></div>
+        <div><a>Птицы</a></div>
+        <div><a>Пожертвования</a></div>
+      </div>
+      <form> 
+        <label>
+          <input 
+          type="search"
+          name="search"
+          id="user_search"
+          required="" 
+          placeholder="Поиск">
+          <button><img src="./img/Search.svg" alt="Search"></button>
+        </label>
+      </form>
+    </nav>
+  <main
   </main>
-</body>
+</>
 </html>
