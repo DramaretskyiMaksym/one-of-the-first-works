@@ -8,7 +8,8 @@
   <link rel="stylesheet" href="./css/styles.css">
   <title>Document</title>
 </head>
-<body class="wrapper">
+<body>
+  <div class="wrapper">
     <header class="header">
       <div class="contact_navigation">
         <div>
@@ -28,27 +29,37 @@
           </div>
         </div>
       </div>
+      <nav class="main_nav">
+        <div class="nav_block">
+          <div><a>Каталог <img class="arrow" src="./img/arrow.svg" alt=""></a></div>
+          <div><a>O проекте</a></div>
+          <div><a>Птицы</a></div>
+          <div><a>Пожертвования</a></div>
+        </div>
+        <form> 
+            <input 
+            type="search"
+            name="search"
+            id="user_search"
+            required="" 
+            placeholder="Поиск">
+          <button class="search">
+            <img src="./img/Search.svg" alt="Search">
+          </button>
+        </form>
+      </nav>
     </header>
-    <nav class="main_nav">
-      <div class="nav_block">
-        <div><a>Каталог</a></div>
-        <div><a>O проекте</a></div>
-        <div><a>Птицы</a></div>
-        <div><a>Пожертвования</a></div>
+  </div>
+  <main class="background_color">
+    <section class="wrapper">
+      <div class="bread_crumbs">
+        <a class="crumbs" href="/">Каталог</a>
+        <a class="crumbs" href="/">Готовые миксы</a>
       </div>
-      <form> 
-        <label>
-          <input 
-          type="search"
-          name="search"
-          id="user_search"
-          required="" 
-          placeholder="Поиск">
-          <button><img src="./img/Search.svg" alt="Search"></button>
-        </label>
-      </form>
-    </nav>
-  <main
+      <div class="back_button">
+        <a class="back" href="/"> <img class="arrow" src="./img/eva_arrow.svg" alt="arrow"> Назад</a>
+      </div>
+    </section>
   </main>
-</>
+</body>
 </html>

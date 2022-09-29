@@ -1,0 +1,42 @@
+
+.background_color {
+  background-color: #F9F9F9;
+}
+.bread_crumbs {
+  margin-bottom: 30px;
+}
+
+.bread_crumbs .crumbs {
+  display: inline-block;
+  margin-right: 35px;
+  color:  #BDBDBD;
+  text-decoration: none;
+}
+.crumbs:last-child{
+  margin-right: 0px;
+}
+
+.crumbs:nth-last-child(n+2)::after {
+  display: inline-block;
+  content:"";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  margin-left: 15px;
+  background-color: #BDBDBD;
+}
+
+.arrow {
+  position: relative;
+  vertical-align: middle;
+  top:-2px;
+}
+
+.back {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333;
+}
+

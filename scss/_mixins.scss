@@ -6,3 +6,8 @@
   }
   line-height: $lh;
 }
+
+@mixin imgSize ($wdt, $hgt) {
+  width: $wdt;
+  height: $hgt;
+}
