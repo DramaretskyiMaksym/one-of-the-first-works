@@ -118,7 +118,7 @@
   right: -2px;
 }
 
-input {
+.header_input {
   position: relative;
   padding: 16px 124px 16px 20px;
   background: #F2F2F2;
@@ -130,7 +130,7 @@ input {
   color: #828282;
 }
 
-form {
+.header_form {
   position: relative;
   margin: 0px;
   display: inline-block;
@@ -152,6 +152,7 @@ form {
 }
 
 .bread_crumbs {
+  padding-top: 75px;
   margin-bottom: 30px;
 }
 
@@ -182,10 +183,25 @@ form {
   top: -2px;
 }
 
-.back {
+.back_button {
+  margin-bottom: 44px;
+}
+.back_button .back {
   text-decoration: none;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   color: #333;
+}
+
+.card {
+  width: 315px;
+  padding: 20px 20px 25px 20px;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+.card .price {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
 }
