@@ -1,9 +1,11 @@
 .header {
   background-color:white;
+  padding-top: 33px;
+  padding-bottom: 46px;
 }
 
 .contact_navigation {
-  padding: 33px 0px 42px;
+  margin-bottom: 42px;
   display: flex;
   justify-content:space-between;
 }
@@ -56,8 +58,7 @@
 .main_nav {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 30px;
-  padding-top: 75px;
+
 }
 
 .nav_block {

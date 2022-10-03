@@ -33,10 +33,12 @@
 
 .header {
   background-color: white;
+  padding-top: 33px;
+  padding-bottom: 46px;
 }
 
 .contact_navigation {
-  padding: 33px 0px 42px;
+  margin-bottom: 42px;
   display: flex;
   justify-content: space-between;
 }
@@ -91,8 +93,6 @@
 .main_nav {
   display: flex;
   justify-content: space-between;
-  padding-bottom: 30px;
-  padding-top: 75px;
 }
 
 .nav_block {
@@ -195,13 +195,61 @@
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #F2F2F2;
+  padding: 20px 20px 20px 20px;
   width: 315px;
-  padding: 20px 20px 25px 20px;
-  border: 1px solid black;
   border-radius: 20px;
 }
 .card .price {
   font-weight: 700;
   font-size: 22px;
   line-height: 27px;
+  color: #333333;
+  margin-bottom: 25px;
+}
+.card img {
+  background-color: white;
+  margin-bottom: 25px;
+  border-radius: 5px;
+}
+
+.card_title {
+  margin-bottom: 25px;
+}
+.card_title h2 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 130%;
+  color: #333333;
+  padding-bottom: 5px;
+}
+.card_title p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: #828282;
+}
+
+.choose_radio {
+  display: inline-block;
+}
+.choose_radio .choose {
+  display: inline-block;
+}
+
+.button_card {
+  padding: 12px 32px;
+  border-radius: 10px;
+  background: #3FCF5E;
+  border: none;
+}
+.button_card a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 21px;
+  color: #FFFFFF;
 }
