@@ -67,6 +67,10 @@
   text-decoration: none;
   color: black;
 }
+.telephone img {
+  position: relative;
+  top: 5px;
+}
 
 .shopping_basket {
   position: relative;
@@ -234,13 +238,41 @@
 }
 
 .choose_radio {
+  margin-bottom: 25px;
+}
+.choose_radio label {
+  display: inline-block;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 21px;
+  color: #4F4F4F;
+  cursor: pointer;
+  padding: 4px 12px;
+  border-radius: 5px;
+}
+
+.choose {
   display: inline-block;
 }
-.choose_radio .choose {
-  display: inline-block;
+.choose input {
+  display: none;
+}
+.choose input:checked + label {
+  background-color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: 1px solid #3FCF5E;
+  padding: 4px 12px;
+}
+
+.choose:last-child {
+  padding-right: 0px;
 }
 
 .button_card {
+  display: inline-block;
+  color: #FFFFFF;
+  vertical-align: middle;
   padding: 12px 32px;
   border-radius: 10px;
   background: #3FCF5E;
@@ -252,4 +284,21 @@
   font-size: 18px;
   line-height: 21px;
   color: #FFFFFF;
+}
+
+.btn_buy {
+  display: flex;
+  justify-content: space-between;
+}
+
+.buy {
+  display: inline-block;
+  margin: 0px;
+  border-radius: 10px;
+  border: 1px solid #BDBDBD;
+  padding: 10px;
+  vertical-align: middle;
+}
+.buy img {
+  margin: 0px;
 }
