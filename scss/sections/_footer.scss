@@ -1,4 +1,46 @@
 footer {
+  display: flex;
+  align-items: center;
   background: #333333;
   height: 255px;
+}
+
+.footer_arrangement {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  a {
+    text-decoration: none;
+    color: white;
+  }
+}
+
+.Payment_delivery {
+  a {
+    color:$tertiaryColor;
+    margin-right: 48px;
+  }
+}
+
+.Payment_delivery a:last-child{
+  margin: 0px;
+}
+
+.social_networks a {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.social_networks a:last-child {
+  margin-right: 0px;
+}
+
+.phone_footer {
+  img {
+    position: relative;
+    top: 5px;
+  }
+  a {
+    margin-left: 10px;
+  }
 }

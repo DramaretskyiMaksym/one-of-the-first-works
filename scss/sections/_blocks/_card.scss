@@ -15,8 +15,8 @@
   width: 315px;
   border-radius: 20px;
   border: 1px solid #F2F2F2;
-box-shadow: -8px -8px 15px #FFFFFF, 8px 8px 15px rgba(0, 0, 0, 0.05);
-border-radius: 20px;
+  box-shadow: -8px -8px 15px #FFFFFF, 8px 8px 15px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
   .price {
     font-weight: 700;
     font-size: 22px;
@@ -40,7 +40,6 @@ border-radius: 20px;
     color: #333333;
     padding-bottom: 5px;
   }
-
   p {
     font-weight: 400;
     font-size: 16px;
@@ -49,13 +48,8 @@ border-radius: 20px;
   }
 }
 
-
-
-
-
 .choose_radio {
   margin-bottom: 25px;
-
   label {
     display: inline-block;
     font-weight: 500;
@@ -64,16 +58,15 @@ border-radius: 20px;
     color: #4F4F4F;
     cursor: pointer;
     padding: 4px 12px;
-    border-radius: 5px; 
   }
 }
 
+
 .choose {
   display: inline-block;
-  input  {
+  input {
     display: none;  
   }
-
   input:checked + label {
     background-color: white;
     border-radius: 5px;
@@ -86,6 +79,10 @@ border-radius: 20px;
 .choose:last-child {
   padding-right: 0px;
 }
+
+
+
+
 
 
 
@@ -117,7 +114,7 @@ border-radius: 20px;
   border-radius: 10px;
   border: 1px solid #BDBDBD;
   background-color: white;
-  padding: 10px;
+  padding: 10px 10px 6px;
   vertical-align: middle;
   img {
     margin: 0px;
@@ -139,7 +136,15 @@ border-radius: 20px;
   :last-child{
     margin: 0px;
   }
+  .start_number {
+    color: #219653;
+  }
 }
+
+.page_number a:hover {
+  color: red;
+}
+
 
 .page_number .start_number::before {
   content: "";
@@ -171,3 +176,4 @@ border-radius: 20px;
   margin-bottom: 3px;
   margin-left: 30px;
 }
+
