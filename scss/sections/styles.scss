@@ -1,0 +1,10 @@
+@use"./variables" as *;
+@use"./mixins" as *;
+
+@import "./_blocks/fonts";
+@import "./setting";
+@import "./_blocks/header";
+@import "./_blocks/main";
+@import "./_blocks/card";
+@import "./_blocks/footer";
+
