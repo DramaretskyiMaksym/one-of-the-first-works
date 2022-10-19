@@ -150,6 +150,7 @@
 .page_number {
   display: flex;
   justify-content: center;
+  align-items: center;
 
   a {
     text-decoration: none;
@@ -167,36 +168,28 @@
   }
 }
 
-.page_number a:hover {
-  color: red;
-}
-
 .page_number::before {
   content: "";
   background-image: url(../../img/Arrow\ -\ left.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 10px;
-  height: 15px;
+  width: 6px;
+  height: 12px;
   display: inline-block;
   vertical-align: middle;
-  margin-top: 3px;
   margin-right: 30px;
 }
 
 .page_number::after {
   content: "";
-  background-image: url(../../img/Arrow\ -\ left.svg);
-  transform: rotate(180deg);
+  background-image: url(../../img/Arrow\ -\ ri2.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 10px;
-  height: 15px;
+  width: 6px;
+  height: 12px;
   display: inline-block;
   vertical-align: middle;
-  margin: 0px;
-  margin-top: 3px;
   margin-left: 30px;
 }

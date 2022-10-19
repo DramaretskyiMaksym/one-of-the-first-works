@@ -2,13 +2,15 @@ footer {
   display: flex;
   align-items: center;
   background: #333333;
-  height: 255px;
+
 }
 
 .footer_arrangement {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-top: 128px;
+  padding-bottom: 128px;
   a {
     text-decoration: none;
     color: white;
