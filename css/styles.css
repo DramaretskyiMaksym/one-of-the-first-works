@@ -215,16 +215,26 @@ input::-webkit-search-results-decoration {
 }
 .back_button .back::before {
   content: "";
-  background-image: url(../../../img/eva_arrow.svg);
+  border: solid #3FCF5E;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 10px;
-  height: 15px;
+  width: 1px;
+  height: 1px;
   display: inline-block;
   vertical-align: middle;
   margin-bottom: 3px;
   margin-right: 8px;
+}
+
+.Left_arrow {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
 }
 
 .main_cards {
