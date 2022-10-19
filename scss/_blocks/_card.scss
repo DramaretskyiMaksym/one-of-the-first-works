@@ -171,7 +171,7 @@
   color: red;
 }
 
-.page_number .start_number::before {
+.page_number::before {
   content: "";
   background-image: url(../../img/Arrow\ -\ left.svg);
   background-repeat: no-repeat;
@@ -181,14 +181,14 @@
   height: 15px;
   display: inline-block;
   vertical-align: middle;
-  margin: 0px;
-  margin-bottom:3px;
+  margin-top: 3px;
   margin-right: 30px;
 }
 
-.page_number .last_number::after {
+.page_number::after {
   content: "";
-  background-image: url(../../img/logo.svg);
+  background-image: url(../../../img/Arrow\ -\ left.svg);
+  transform: rotate(180deg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -197,6 +197,6 @@
   display: inline-block;
   vertical-align: middle;
   margin: 0px;
-  margin-bottom: 3px;
+  margin-top: 3px;
   margin-left: 30px;
 }
