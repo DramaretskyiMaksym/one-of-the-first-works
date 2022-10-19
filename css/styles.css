@@ -421,8 +421,7 @@ input::-webkit-search-results-decoration {
 
 .page_number .last_number::after {
   content: "";
-  background-image: url(../../../img/Arrow\ -\ left.svg);
-  transform: rotate(180deg);
+  background-image: url(../../img/logo.svg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
