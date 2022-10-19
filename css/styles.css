@@ -420,7 +420,7 @@ input::-webkit-search-results-decoration {
 
 .page_number::after {
   content: "";
-  background-image: url(../../../img/Arrow\ -\ left.svg);
+  background-image: url(../../img/Arrow\ -\ left.svg);
   transform: rotate(180deg);
   background-repeat: no-repeat;
   background-position: center;
