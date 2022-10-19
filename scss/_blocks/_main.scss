@@ -35,9 +35,10 @@
 
 .back_button {
   margin-bottom: 44px;
-  position: relative;
-  .back {
+  .back  {
     margin: 0px;
+    margin-bottom: 44px;
+    display: inline-block;
     text-decoration: none;
     font-weight: 500;
     font-size: 20px;
@@ -46,7 +47,6 @@
   }
    .back::before {
     content: "";
-    position: relative;
     background-image: url(../../../img/eva_arrow.svg);
     background-repeat: no-repeat;
     background-position: center;
@@ -55,6 +55,7 @@
     height: 15px;
     display: inline-block;
     vertical-align: middle;
-    margin-bottom: 2px;
+    margin-bottom: 3px;
+    margin-right: 8px;
    }
 }
