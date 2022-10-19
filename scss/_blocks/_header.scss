@@ -115,3 +115,8 @@
   top: 13px; left: 320px;
   border: none;
 }
+
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration { display: none; }
