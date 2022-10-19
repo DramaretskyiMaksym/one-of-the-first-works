@@ -232,11 +232,6 @@ input::-webkit-search-results-decoration {
   margin-right: 8px;
 }
 
-.Left_arrow {
-  transform: rotate(135deg);
-  -webkit-transform: rotate(135deg);
-}
-
 .main_cards {
   display: flex;
   flex-wrap: wrap;
@@ -411,7 +406,7 @@ input::-webkit-search-results-decoration {
 
 .page_number .start_number::before {
   content: "";
-  background-image: url(../../../img/Arrow\ -\ left.svg);
+  background-image: url("../../../img/Arrow - left.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
