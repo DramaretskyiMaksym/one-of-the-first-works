@@ -382,7 +382,6 @@ input::-webkit-search-results-decoration {
 }
 
 .page_number {
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -400,10 +399,12 @@ input::-webkit-search-results-decoration {
 }
 .page_number .start_number {
   color: #219653;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
 }
 
 .page_number::before {
-  position: absolute;
   content: "";
   background-image: url("../../img/Arrow_left.svg");
   background-repeat: no-repeat;
