@@ -148,10 +148,10 @@
 }
 
 .page_number {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-
   a {
     text-decoration: none;
     font-weight: 500;
@@ -169,6 +169,7 @@
 }
 
 .page_number::before {
+  position: absolute;
   content: "";
   background-image: url('../../img/Arrow_left.svg');
   background-repeat: no-repeat;
@@ -177,8 +178,8 @@
   width: 6px;
   height: 12px;
   display: inline-block;
-  vertical-align: middle;
   margin-right: 30px;
+  margin-bottom: 0.5px;
 }
 
 .page_number::after {
@@ -190,6 +191,6 @@
   width: 6px;
   height: 12px;
   display: inline-block;
-  vertical-align: middle;
   margin-left: 30px;
+  margin-bottom: 0.5px;
 }

@@ -382,6 +382,7 @@ input::-webkit-search-results-decoration {
 }
 
 .page_number {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -402,6 +403,7 @@ input::-webkit-search-results-decoration {
 }
 
 .page_number::before {
+  position: absolute;
   content: "";
   background-image: url("../../img/Arrow_left.svg");
   background-repeat: no-repeat;
@@ -410,8 +412,8 @@ input::-webkit-search-results-decoration {
   width: 6px;
   height: 12px;
   display: inline-block;
-  vertical-align: middle;
   margin-right: 30px;
+  margin-bottom: 0.5px;
 }
 
 .page_number::after {
@@ -423,8 +425,8 @@ input::-webkit-search-results-decoration {
   width: 6px;
   height: 12px;
   display: inline-block;
-  vertical-align: middle;
   margin-left: 30px;
+  margin-bottom: 0.5px;
 }
 
 footer {
