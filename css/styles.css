@@ -407,7 +407,7 @@ input::-webkit-search-results-decoration {
 
 .page_number::before {
   content: "";
-  background-image: url("../../img/Arrow_left.svg");
+  background-image: url("../img/Arrow_left.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -420,7 +420,7 @@ input::-webkit-search-results-decoration {
 
 .page_number::after {
   content: "";
-  background-image: url("../../img/Arrow_ri.svg");
+  background-image: url("../img/Arrow_ri.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
