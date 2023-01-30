@@ -325,7 +325,8 @@ input::-webkit-search-results-decoration {
   line-height: 21px;
   color: #4F4F4F;
   cursor: pointer;
-  padding: 4px 12px;
+  padding: 3px 10px;
+  border: 1px solid transparent;
 }
 
 .choose {
@@ -335,11 +336,11 @@ input::-webkit-search-results-decoration {
   display: none;
 }
 .choose input:checked + label {
-  background-color: white;
   border-radius: 5px;
   cursor: pointer;
-  outline: 1px solid #3FCF5E;
-  padding: 4px 12px;
+  border-color: #3FCF5E;
+  padding: 3px 10px;
+  background-color: #fff;
 }
 
 .choose:last-child {
